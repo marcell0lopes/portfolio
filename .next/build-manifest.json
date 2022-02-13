@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/projetos.js"
-    ],
-    "/projetos/custom-keyboards": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projetos/custom-keyboards.js"
     ]
   },
   "ampFirstPages": []
