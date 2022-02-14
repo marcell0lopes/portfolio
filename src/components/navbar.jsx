@@ -71,7 +71,11 @@ const Navbar = props => {
           <LinkItem href="/projetos" path={path}>
             Projetos
           </LinkItem>
-          <Link p={2} color="#202023" href="https://github.com/marcell0lopes">
+          <Link
+            p={2}
+            color={useColorModeValue('#202023', '#ffffff90')}
+            href="https://github.com/marcell0lopes"
+          >
             Ver no Github <ExternalLinkIcon mb={1} />
           </Link>
         </Stack>
