@@ -6,16 +6,24 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
   return (
-    <Layout title="Custom Keyboards">
+    <Layout title="ezFinances">
       <Container>
         <Title>
-          Custom Keyboards <Badge>2022</Badge>
+          ezFinances <Badge>2021</Badge>
         </Title>
-        <P>Site com função de scroll e overlay de texto por seção. Inspirado na HomePage da Tesla porém feito de forma altamente customizável e componentizada. Assim, podemos trocar os títulos, botões e imagens de forma rápida e descomplicada.</P>
+        <P>
+          Projeto simples para aplicar conhecimentos de SASS(SCSS) e
+          conceitos-front end. Utilizando JavaScript puro para toda a
+          funcionalidade do site, como adicionar e remover transções, mostrar as
+          informações de conta em tempo real na tela e manter os dados salvos no
+          armazenamento local do usuário.{' '}
+        </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Site</Meta>
-            <Link href="https://scroll-behavior.netlify.app/">https://scroll-behavior.netlify.app/</Link>
+            <Link href="https://marcell0lopes.github.io/ez-finances/">
+              https://marcell0lopes.github.io/ez-finances/
+            </Link>
           </ListItem>
           <ListItem>
             <Meta>Plataforma</Meta>
@@ -23,18 +31,17 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, TypeScript</span>
+            <span>HTML, SCSS, JavaScript</span>
           </ListItem>
-          
         </List>
 
         <ProjectImage
-          src="/images/works/custom-keyboards.gif"
-          alt="Custom Keyboards"
+          src="/images/works/ezfinances.gif"
+          alt="Ez Finances New Transaction"
         />
         <ProjectImage
-          src="/images/works/customkeyboards.png"
-          alt="Custom Keyboards"
+          src="/images/works/ez-finances.png"
+          alt="Ez Finances home screen"
         />
       </Container>
     </Layout>

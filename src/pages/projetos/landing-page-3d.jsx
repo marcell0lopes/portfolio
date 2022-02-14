@@ -6,41 +6,31 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
   return (
-    <Layout title="Custom Keyboards">
+    <Layout title="Landing Page 3D">
       <Container>
         <Title>
-          Custom Keyboards <Badge>2022</Badge>
+          Landing Page 3D<Badge>2022</Badge>
         </Title>
         <P>
-          Site com função de scroll e overlay de texto por seção. Inspirado na
-          HomePage da Tesla porém feito de forma altamente customizável e
-          componentizada. Assim, podemos trocar os títulos, botões e imagens de
-          forma rápida e descomplicada.
+          Site com integração a 3D interativo e animado. O site incorpora um
+          modelo 3D utilizado no clipe de lançamento do artista. O site e o
+          artista não serão divulgados até o lançamento do clipe por direitos
+          autorais.
         </P>
         <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Site</Meta>
-            <Link href="https://scroll-behavior.netlify.app/">
-              https://scroll-behavior.netlify.app/
-            </Link>
-          </ListItem>
           <ListItem>
             <Meta>Plataforma</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, TypeScript</span>
+            <span>React, Next, Three.JS</span>
           </ListItem>
         </List>
 
         <ProjectImage
-          src="/images/works/custom-keyboards.gif"
-          alt="Custom Keyboards"
-        />
-        <ProjectImage
-          src="/images/works/customkeyboards.png"
-          alt="Custom Keyboards"
+          src="/images/works/secret.png"
+          alt="3D Landing Page com Blur"
         />
       </Container>
     </Layout>

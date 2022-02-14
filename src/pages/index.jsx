@@ -53,16 +53,18 @@ const Page = () => {
             ml={{ md: 6 }}
             align="center"
           >
-            <Image
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              maxWidth="100px"
-              display="inline-block"
-              borderRadius="full"
-              src="/images/marcellolopes.jpeg"
-              alt="profile image"
-            />
+            <Section delay={1}>
+              <Image
+                borderColor="whiteAlpha.800"
+                borderWidth={2}
+                borderStyle="solid"
+                maxWidth="100px"
+                display="inline-block"
+                borderRadius="full"
+                src="/images/marcellolopes.jpeg"
+                alt="profile image"
+              />
+            </Section>
           </Box>
         </Box>
 

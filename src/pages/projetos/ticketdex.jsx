@@ -6,16 +6,20 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
   return (
-    <Layout title="Custom Keyboards">
+    <Layout title="TicketDEX">
       <Container>
         <Title>
-          Custom Keyboards <Badge>2022</Badge>
+          TicketDEX <Badge>2022</Badge>
         </Title>
-        <P>Site com função de scroll e overlay de texto por seção. Inspirado na HomePage da Tesla porém feito de forma altamente customizável e componentizada. Assim, podemos trocar os títulos, botões e imagens de forma rápida e descomplicada.</P>
+        <P> 🇺🇸 NFT ticketing platform for events happening in the USA. </P>
+        <P>
+          🇧🇷Plataforma de venda de ingressos em NFT para eventos acontecendo nos
+          Estados Unidos.
+        </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Site</Meta>
-            <Link href="https://scroll-behavior.netlify.app/">https://scroll-behavior.netlify.app/</Link>
+            <Link href="https://ticketdex.io/">https://ticketdex.io/</Link>
           </ListItem>
           <ListItem>
             <Meta>Plataforma</Meta>
@@ -23,19 +27,11 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, TypeScript</span>
+            <span>React, TypeScript, Next</span>
           </ListItem>
-          
         </List>
 
-        <ProjectImage
-          src="/images/works/custom-keyboards.gif"
-          alt="Custom Keyboards"
-        />
-        <ProjectImage
-          src="/images/works/customkeyboards.png"
-          alt="Custom Keyboards"
-        />
+        <ProjectImage src="/images/works/ticketdex.png" alt="TicketDex" />
       </Container>
     </Layout>
   )

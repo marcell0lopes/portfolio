@@ -3,10 +3,17 @@ import { WorkGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import customKeyboardThumb from '../../public/images/works/customkeyboards.png'
 import yelpcampThumb from '../../public/images/works/yelpcamp.png'
+import ezFinancesThumb from '../../public/images/works/ez-finances.png'
+import ticketDexThumb from '../../public/images/works/ticketdex.png'
+import secretThumb from '../../public/images/works/secret.png'
+import Head from 'next/head'
 
 const Projetos = () => {
   return (
     <Container>
+      <Head>
+        <title> Marcello Lopes - Projetos </title>
+      </Head>
       <Heading as="h3" fontSize={20} mt={2} mb={4}>
         Projetos
       </Heading>
@@ -36,12 +43,9 @@ const Projetos = () => {
           <WorkGridItem
             id="ez-finances"
             title="ezFinance$"
-            thumbnail={yelpcampThumb}
+            thumbnail={ezFinancesThumb}
           >
             Web App de controle financeiro feito com HTML, SCSS e JavaScript.
-            <br /> As informações são salvas no armazenamento do navegador para
-            o usuário registrar suas finanças com maior controle e segurança ao
-            decorrer do tempo.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -54,7 +58,7 @@ const Projetos = () => {
           <WorkGridItem
             id="ticketdex"
             title="TicketDEX"
-            thumbnail={customKeyboardThumb}
+            thumbnail={ticketDexThumb}
           >
             The Number One #NFT ticketing platform for IRL and #Metaverse
             events. Built on the carbon neutral #WAX #Blockchain
@@ -64,11 +68,10 @@ const Projetos = () => {
           <WorkGridItem
             id="landing-page-3d"
             title="Landing Page 3D"
-            thumbnail={customKeyboardThumb}
+            thumbnail={secretThumb}
           >
-            <small>(ainda em desenvolvimento)</small>
-            <br /> Landing page para lançamento musical de artista brasileiro
-            feito com Next.JS e objeto 3D interativo feito com @react-three
+            Landing page para lançamento musical de artista brasileiro feito com
+            Next.JS e objeto 3D interativo feito com @react-three
           </WorkGridItem>
         </Section>
       </SimpleGrid>

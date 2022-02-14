@@ -43,8 +43,8 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
-      style={{ backdropFilter: 'blur(5px)' }}
+      bg={useColorModeValue('#ffffff90', '#20202380')}
+      style={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       {...props}
     >
@@ -71,9 +71,9 @@ const Navbar = props => {
           <LinkItem href="/projetos" path={path}>
             Projetos
           </LinkItem>
-          <LinkItem href="https://github.com/marcell0lopes" path={path}>
+          <Link p={2} color="#202023" href="https://github.com/marcell0lopes">
             Ver no Github <ExternalLinkIcon mb={1} />
-          </LinkItem>
+          </Link>
         </Stack>
 
         <Box flex={1} align="right">

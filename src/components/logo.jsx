@@ -23,12 +23,19 @@ const Logo = () => {
       <a>
         <LogoBox>
           <Text
-            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            color={useColorModeValue('pink.500', 'blue.500')}
             fontFamily="M PLUS Rounded 1c"
             fontWeight="bold"
             ml={3}
           >
-            &lt; Marcello Lopes /&gt;
+            &lt;{' '}
+            <Text
+              display="inline"
+              color={useColorModeValue('blue.500', 'whiteAlpha.900')}
+            >
+              MarcelloLopes
+            </Text>{' '}
+            /&gt;
           </Text>
         </LogoBox>
       </a>
