@@ -1,6 +1,6 @@
 ![project header](./public/header.png)
 
-## e esse é o
+### e esse é o
 
 # Meu portfolio! 👋
 
