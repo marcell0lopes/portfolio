@@ -11,15 +11,22 @@ const Project = () => {
         <Title>
           TicketDEX <Badge>2022</Badge>
         </Title>
-        <P> 🇺🇸 NFT ticketing platform for events happening in the USA. </P>
+        <P>
+          {' '}
+          🇺🇸 NFT ticketing platform for events happening in the USA.
+          <br />
+          The url will be available below after the official launching of the
+          platform.{' '}
+        </P>
         <P>
           🇧🇷Plataforma de venda de ingressos em NFT para eventos acontecendo nos
           Estados Unidos.
+          <br />O link para o site será revelado após o lançamento oficial.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Site</Meta>
-            <Link href="https://ticketdex.io/">https://ticketdex.io/</Link>
+            <Link href="/projetos/ticketdex">Unavailable</Link>
           </ListItem>
           <ListItem>
             <Meta>Plataforma</Meta>
