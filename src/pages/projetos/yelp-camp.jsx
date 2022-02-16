@@ -15,11 +15,13 @@ const Project = () => {
           O YelpCamp é uma plataforma online responsiva onde seus usuários podem
           adicionar, comentar e avaliar Campings, que são automaticamente
           localizados no mapa utilizando a API do MapBox. Esse é o projeto final
-          do curso "The Web Developer Bootcamp 2022" por Colt Steele na Udemy. O
-          YelpCamp é uma plataforma online responsiva onde seus usuários podem
-          adicionar, comentar e avaliar Campings, que são automaticamente
-          localizados no mapa utilizando a API do MapBox. Esse é o projeto final
           do curso "The Web Developer Bootcamp 2022" por Colt Steele na Udemy.
+          <br />
+          <br />
+          🇺🇸 YelpCamp its a responsive online platform where it's users can add,
+          comment, and review campings. They're automatically updated and shown
+          on the map from MapBox API. This is the final project from "The Web
+          Developer Bootcamp 2022" from Colt Steele
         </P>
         <List ml={4} my={4}>
           <ListItem>
