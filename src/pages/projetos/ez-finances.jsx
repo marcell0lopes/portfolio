@@ -14,9 +14,9 @@ const Project = () => {
         <P>
           Projeto simples para aplicar conhecimentos de SASS(SCSS) e
           conceitos-front end. Utilizando JavaScript puro para toda a
-          funcionalidade do site, como adicionar e remover transções, mostrar as
-          informações de conta em tempo real na tela e manter os dados salvos no
-          armazenamento local do usuário.{' '}
+          funcionalidade do site, como adicionar e remover transações, mostrar
+          as informações de conta em tempo real na tela e manter os dados salvos
+          no armazenamento local do usuário.{' '}
         </P>
         <List ml={4} my={4}>
           <ListItem>
